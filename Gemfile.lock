@@ -1,0 +1,43 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (11.1.3)
+    colsole (0.7.2)
+    multi_json (1.15.0)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    nio4r (2.5.3)
+    puma (4.3.6)
+      nio4r (~> 2.0)
+    rack (2.2.3)
+    rack-cache (1.12.0)
+      rack (>= 0.4)
+    rack-protection (2.1.0)
+      rack
+    ruby2_keywords (0.0.2)
+    sinatra (2.1.0)
+      mustermann (~> 1.0)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
+      tilt (~> 2.0)
+    sinatra-contrib (2.1.0)
+      multi_json
+      mustermann (~> 1.0)
+      rack-protection (= 2.1.0)
+      sinatra (= 2.1.0)
+      tilt (~> 2.0)
+    tilt (2.0.10)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  colsole
+  puma
+  rack-cache
+  sinatra
+  sinatra-contrib
+
+BUNDLED WITH
+   2.1.4
